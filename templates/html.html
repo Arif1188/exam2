@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static "/css/css.css" %}">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href=""><img src="{% static "/icons/Vector@2x.png" %}" alt=""></a></li>
+            <li><a href="">8 (812) 123-45-67 </a></li>
+            <li><a href="">Работаем 7 дней в неделю</a></li>
+            <li><a href="">9:00 — 18:00</a></li>
+        <div class="pain1">
+            <li><a href=""><img src="{% static "/icons/Vector.png" %}" alt=""></a></li>
+            <li><a href="">Войти / Регистрация</a></li>
+        </div>
+        </ul>
+    </header>
+
+    <header id="pain2">
+        <ul id="ul1">
+            <li ><a id="a2" href=""><span id="span">PORTEN</span></a></li>
+        <div class="pain3">
+            <li id="ul3"><a id="a3"  href=""><span id="span1">ПОНРАВИЛОСЬ</span></a></li>
+            <li id="ul3"><a id="a3"  href="{% url "create" %}"><span id="span1">ЛИЧНЫЙ КАБИНЕТ</span></a></li>
+            <li id="ul3"><a id="a3"  href=""><span id="span1">НАСТРОЙКИ</span></a></li>
+            <li id="ul3"><a id="a3"  href=""><img src="{% static "/icons/Vector3.png" %}" id="img1"></a></li>
+            <li id="ul3"><a id="a3"  href=""><img src="{% static "/icons/gridicons_search.png" %}" id="img2"></a></li>
+        </div>
+        </ul>
+    </header>
+
+    
+    <div class="section1">
+        <img src="{% static "/images/aaacd5fcb853d556e12a45b0f923a1f6.jpeg" %}" alt="" class="image11">
+        <div class="image2">
+            
+        </div>
+    </div>
+
+
+
+</body>
+</html>

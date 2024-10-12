@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello</title>
+</head>
+<body>
+    <h1>list</h1>
+    <a href="{% url "create" %}">Create</a>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Text</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for employee in product1 %}
+            <tr>
+                <td>{{ employee.number }}</td>
+                <td>{{ employee.text }}</td>
+                <td>{{ employee.time }}</td>
+
+
+                <td>
+                    <a href="{% url "edit" id=employee.id %}">Edit</a> |
+                    <a href="{% url "delete" id=employee.id %}">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <thead>
+            <tr>
+                <th>title</th>
+   
+            </tr>
+        </thead>
+        <tbody>
+            {% for employee in product2 %}
+            <tr>
+                <td>{{ employee.title }}</td>
+
+                <td>
+                    <a href="{% url "edit" id=employee.id %}">Edit</a> |
+                    <a href="{% url "delete" id=employee.id %}">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <thead>
+            <tr>
+                <th>Text</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for employee in product3 %}
+            <tr>
+                <td>{{ employee.text }}</td>
+                <td>{{ employee.description }}</td>
+
+                <td>
+                    <a href="{% url "edit" id=employee.id %}">Edit</a> |
+                    <a href="{% url "delete" id=employee.id %}">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

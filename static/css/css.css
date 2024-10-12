@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding: 0 80px;
+}
+
+header li {
+    display: inline;
+
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+header ul .pain1{
+   margin-left: 50%;
+   margin-right: 10%;
+}
+
+
+
+
+
+#pain2 {
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0;
+}
+
+#pain2 #ul1 {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding: 0 80px;
+}
+
+#pain2 #ul2 {
+    display: inline;
+
+}
+
+#pain2 #a1{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+#pain2 #ul1 .pain3{
+   margin-left: 30%;
+   margin-right: 10%;
+}
+
+#span{
+    font-size: 50px;
+}
+
+#span1{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+#img1{
+    width: 30px;
+}
+
+#img2{
+    width: 30px;
+}
+
+.section1{
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+
+}
+
